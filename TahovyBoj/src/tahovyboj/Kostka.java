@@ -16,6 +16,7 @@ public class Kostka {
      public Kostka(int pocet) {
      this.pocetSten = pocet;
      rand = new Random();
+    
 }
      public Kostka() {
      pocetSten = 6;

@@ -13,7 +13,7 @@ public class Zdravic {
      * @param  jmeno  Jméno uživatele
      * @return      Text s pozdravem
      */
- public void pozdrav(String jmeno){
+ public void pozdrav(String jmeno ){
  System.out.printf(" %s %s \n",retezec , jmeno);
  }   
     

@@ -15,8 +15,7 @@ public class TahovyBoj {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-    
-        Kostka kosticka = new Kostka(10);
+         Kostka kosticka = new Kostka(10);
         Kostka kosticka2 = new Kostka();
         
 
@@ -33,6 +32,7 @@ public class TahovyBoj {
         for (int i = 0; i < 10; i++) {
             System.out.print(kosticka.hod()+" ");
         } 
+
     }
     
 }
