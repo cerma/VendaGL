@@ -12,7 +12,7 @@ package pesosoba;
  */
 public class Osoba {
     private String jmeno;
-    public Pes pes;
+   public Pes pes;
     
     public Osoba(String jmeno){
         this.jmeno = jmeno;

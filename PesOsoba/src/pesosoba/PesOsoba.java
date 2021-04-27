@@ -19,12 +19,16 @@ public class PesOsoba {
      Osoba lenka = new Osoba("Lenka Cermakova");
     Pes azor = new Pes(1, "Azor");
     
-    System.out.printf("%s (%s)",azor.jmeno,azor.vek);
+    System.out.printf("%s (%s)\n",azor.jmeno,azor.vek);
+    
+    tom.pes = azor;
+    lenka.pes = azor;
     
     tom.pes.zestarni();
     lenka.pes.zestarni();
     
-    System.out.printf("%s (%s)",azor.jmeno,azor.vek);
+    
+    System.out.printf("%s (%s) \n)",azor.jmeno,azor.vek);
     
     }
     
