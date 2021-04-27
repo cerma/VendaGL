@@ -17,7 +17,9 @@ public class Lide {
     public static void main(String[] args) {
        
         Clovek karel = new Clovek("Karel Nový", 25);
+        test test = new test();
         
+        test.test();
         System.out.print(karel.toString());
         karel.behej(10);
         karel.behej(10);

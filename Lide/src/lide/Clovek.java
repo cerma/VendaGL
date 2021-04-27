@@ -14,6 +14,7 @@ public class Clovek {
     private String jmeno;
     private int vek;
     private int unava = 0;
+    public int cislo = 50;
     
     
     public Clovek(String jmeno,int vek){
