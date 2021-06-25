@@ -18,6 +18,8 @@ public class TahovyBoj {
          Kostka kosticka = new Kostka(10);
         Kostka kosticka2 = new Kostka();
         
+        Bojovnik test = new Bojovnik("Tom", 100, 20, 10,kosticka);
+        
 
        
         
