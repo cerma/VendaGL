@@ -21,7 +21,7 @@ public class Trojuhelnik extends  Tvar{
         this.c = c;
         
             
-    }
+    } 
     public double Obsah(){
     double s = (a + b + c)/2;
     
