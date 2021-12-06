@@ -10,4 +10,23 @@ package tovarna;
  */
 public class TovarnaNaCukrovi {
     
+    private String barva;
+    private String tvar;
+    private int vaha;
+    
+        private TovarnaNaCukrovi(String barva,String tvar,int vaha){
+        this.barva  = barva;
+        this.tvar = tvar;
+        this.vaha = vaha;
+        }
+        
+        public static TovarnaNaCukrovi Bananove(){
+        
+        return new TovarnaNaCukrovi("žlutá", "kulatý", 20);
+        }
+        
+            @Override
+             public String toString() {
+             return String.format("Cukroví barvy %s, tvaru %s a váhy %dg",barva,tvar,vaha );
+             }
 }
