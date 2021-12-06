@@ -18,7 +18,7 @@ public class Prevodnik {
     
     }
       public static double PrevodNaRadiany(double stupne){
-        double radiany = //doplni t vypocet;
+        double radiany = stupne*Math.PI/180;
     
     return radiany;
     

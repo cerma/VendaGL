@@ -14,12 +14,12 @@ public class PrevodStupnu {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       System.out.println(Prevodnik.PrevodNaRadiany(90));
+     
       double a = 6.28;
+      double b = 90;   
       
-      
-      
-      System.out.printf("%.2f radiánů na stupně: %f %n",a, Prevodnik.PrevodNaStupne(6.28));
+      System.out.printf("%.2f radiánů na stupně: %.14f %n",a, Prevodnik.PrevodNaStupne(a));
+      System.out.printf("%.0f stupňů na radiány %.16f %n",b, Prevodnik.PrevodNaRadiany(b));
     }
     
 }
