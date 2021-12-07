@@ -24,6 +24,15 @@ public class TovarnaNaCukrovi {
         
         return new TovarnaNaCukrovi("žlutá", "kulatý", 20);
         }
+         public static TovarnaNaCukrovi Jahodove(){
+        
+        return new TovarnaNaCukrovi("červená", "kulatý", 15);
+        }
+         
+             public static TovarnaNaCukrovi Cokoladove(){
+        
+        return new TovarnaNaCukrovi("hnědá", "hranatý", 25);
+        }
         
             @Override
              public String toString() {
