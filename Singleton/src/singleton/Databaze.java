@@ -9,5 +9,20 @@ package singleton;
  * @author cermak
  */
 public class Databaze {
-    
+        private static Databaze singleton = null;
+        public String s;
+
+        private Databaze(){
+        s = "MySQL";
+        }
+
+        public static Databaze getInstance(){
+        if (singleton == null) {
+        singleton = new Databaze();
+
+        }
+
+        return singleton;
+        }
+
 }

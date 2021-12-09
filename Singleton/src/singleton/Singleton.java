@@ -14,7 +14,12 @@ public class Singleton {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       Databaze test = Databaze.getInstance();
+       
+       
+       
+    
+       System.out.println(test.s);
     }
     
 }
