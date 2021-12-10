@@ -18,17 +18,33 @@ public class ArrayListSlova {
         String slovo= "";
         ArrayList<String> seznam = new ArrayList<String>();
         //vytvoreni objektu scanneru
-        Scanner vstup = new Scanner(System.in);
-            
+        Scanner sc = new Scanner(System.in);
+        String s = "";
+         
             
         while (!slovo.equals("konec")  ) { 
-            
-              slovo = vstup.nextLine();   
+              System.out.print("Zadej slovo: ");
+              slovo = sc.nextLine();
+               
+              //prevod na male pismena
+              slovo = slovo.toLowerCase();
+              
+              //pridani slova do listu, vylouceni duplicit
+              if (!(seznam.contains(slovo)))
+              {
+                  if (!seznam.contains("konec")){
+              seznam.add(slovo);}
+              }
              
               
         }
+        System.out.print("Zadal jsi tato slova: ");
+      //  for (String i : seznam){
+        //    if (!i.equals("konec")) {
                 
-            
+ 
+           
+           System.out.printf("Zadal jsi tato slova: %s", String.join(", ", seznam));
         
         
      
