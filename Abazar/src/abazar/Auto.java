@@ -10,4 +10,15 @@ package abazar;
  */
 public class Auto {
     
+    protected String SPZ;
+    protected String znacka;
+    protected int cena;
+    
+    public Auto(String SPZ,String znacka,int cena){
+    this.SPZ = SPZ;
+    this.cena = cena;
+    this.znacka = znacka;
+    
+    }
+    
 }

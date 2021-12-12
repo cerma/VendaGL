@@ -14,7 +14,14 @@ public class Abazar {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+         Autobazar cermak = new Autobazar();
+         // prirazeni adresy a vychozi castky v pokladne
+         cermak.setAdresa("Hustenovice 156");
+         cermak.setPokladna(5000000);
+         
+         
+         
+         
     }
     
 }
