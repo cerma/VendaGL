@@ -8,44 +8,28 @@ import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.format.FormatStyle;
-import java.util.ArrayList;
+import java.time.temporal.ChronoUnit;
 import java.util.Scanner;
 
-/**
- *
- * @author cermak
- */
 public class DatumPatky {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
- 
-      
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in, "Windows-1250");
         System.out.println("Pro zadaný interval datumů vypíše všechny pátky 13.:");
         System.out.println("Zadejte 1. datum:");
-        LocalDate datum1 = LocalDate.parse(sc.nextLine(),DateTimeFormatter.ofPattern("d.M.y"));
-
+        String datum1 = sc.nextLine();
         System.out.println("Zadejte 2. datum:");
-        LocalDate datum3 = LocalDate.parse(sc.nextLine(),DateTimeFormatter.ofPattern("d.M.y"));
-         String s ="";
-            while(!datum1.equals(datum3))
-        {
-            if( (datum1.getDayOfWeek() == DayOfWeek.FRIDAY) && datum1.getDayOfMonth()==13)
-            {
-               s += String.format("%s , ", datum1.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.MEDIUM)));
+        String datum2 = sc.nextLine();
+        LocalDate date1 = LocalDate.parse(datum1, DateTimeFormatter.ofPattern("d.M.y"));
+        LocalDate date2 = LocalDate.parse(datum2, DateTimeFormatter.ofPattern("d.M.y"));
+        long dny = ChronoUnit.DAYS.between(date1, date2);
+        System.out.println("Pátky 13.:");
+        LocalDate actDate = date1;
+        for (long i = 0; i < dny; i ++) {
+            if (actDate.getDayOfMonth() == 13 && actDate.getDayOfWeek().equals(DayOfWeek.FRIDAY)) {
+                System.out.printf("%s, ", actDate.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.MEDIUM)));
             }
-             datum1 = datum1.plusDays(1);
+            actDate = actDate.plusDays(1);
         }
-        System.out.println("Pátky 13.: ");
-        System.out.println(s);
-        
-        
-         
-   
     }
-    
 }
 
