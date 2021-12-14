@@ -28,11 +28,11 @@ public class Abazar {
           
          
          
-        /* vypis objektu z listu
-         *  for (int i = 0;i < cermak.seznam.size();i++){
-         *System.out.println(cermak.seznam.get(i).SPZ);
-         */
-         //}
+
+          for (int i = 0;i < cermak.seznam.size();i++){
+         System.out.println(cermak.seznam.get(i).SPZ);
+          }
+         
         
          System.out.println(cermak);
          
