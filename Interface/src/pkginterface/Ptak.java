@@ -8,18 +8,30 @@ package pkginterface;
  *
  * @author cermak
  */
-public class Ptak implements PtakInterface{
+public class Ptak extends Zvire implements PtakInterface{
+
+    public Ptak(int vaha) {
+        super(vaha);
+    }
     @Override    
     public void pipni() {
         System.out.println("♫ ♫ ♫");
     }
-    @Override
-    public void dychej() {
-        System.out.println("Dýchám...");
-    }
+
+    
     
     public void klovni() {
         System.out.println("Klov, klov!");
+    }
+        @Override
+    public String toString(){
+            
+       return String.format("Tohle je Ptak, vazi %d kilogramu ", vaha);
+            }
+
+    @Override
+    public void presunSe() {
+        System.out.println("Litam");
     }
     }
 

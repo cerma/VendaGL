@@ -8,27 +8,19 @@ package pkginterface;
  *
  * @author cermak
  */
-public class Ptakojester extends Zvire implements PtakInterface,JesterInterface{
-
-    public Ptakojester(int vaha) {
+public class Delfin extends Zvire{
+    
+    public Delfin(int vaha) {
         super(vaha);
     }
-
-@Override   
-public void plazse() {
-    System.out.println("Plazím se...");
-}
-
-
-
-@Override
-public void pipni() {
-    System.out.println("♫ ♫♫ ♫ ♫ ♫♫");
-}
+    public void Vyskoc(){
+        System.out.println("Vyskocil jsem nad hladinu");
+    
+    
+    }
 
     @Override
     public void presunSe() {
         System.out.println("Plavu");
     }
-    
 }
