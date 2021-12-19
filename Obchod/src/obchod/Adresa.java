@@ -12,13 +12,19 @@ public class Adresa {
     private String ulice;
     private int cisloDomu;
     private int cisloBytu;
-    private String Mesto;
+    private String mesto;
     private String PSC;
-    
-    public Adresa(){
-    
+    private String zeme;
     
     
+    public Adresa(String ulice,int cisloDOmu,int cisloBytu,String mesto,String PSC,String zeme){
+     this.ulice = ulice;
+     this.cisloDomu = cisloDOmu;
+     this.cisloBytu = cisloBytu;
+     this.mesto = mesto;
+     this.PSC = PSC;
+     this.zeme = zeme;
+
     }
     
     
