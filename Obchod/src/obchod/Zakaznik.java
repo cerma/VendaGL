@@ -9,9 +9,9 @@ package obchod;
  * @author cermak
  */
 public class Zakaznik {
-    private int cisloZakaznika;
-    private String jmeno;
-    private String prijmeni;
+    public int cisloZakaznika;
+    public String jmeno;
+    public String prijmeni;
     
     public Zakaznik(int cisloZakaznika,String jmeno,String prijmeni){
     this.cisloZakaznika = cisloZakaznika;

@@ -9,12 +9,12 @@ package obchod;
  * @author cermak
  */
 public class Adresa {
-    private String ulice;
-    private int cisloDomu;
-    private int cisloBytu;
-    private String mesto;
-    private String PSC;
-    private String zeme;
+    public String ulice;
+   public int cisloDomu;
+    public int cisloBytu;
+    public String mesto;
+    public String PSC;
+    public String zeme;
     
     
     public Adresa(String ulice,int cisloDOmu,int cisloBytu,String mesto,String PSC,String zeme){

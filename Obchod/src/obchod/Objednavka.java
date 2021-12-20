@@ -4,70 +4,83 @@
  */
 package obchod;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author cermak
  */
 public class Objednavka implements OrderInterface{
+    
+    public Zakaznik z;
+    public Adresa a;
+    public Produkt p;
+    
+    public Objednavka(Zakaznik z,Adresa a,Produkt p){
+       this.z = z;
+       this.a= a;
+       this.p = p;
+       
+    
+    }
 
     @Override
     public int getNumber() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return z.cisloZakaznika;
     }
 
-    @Override
+     @Override
     public String getFirstName() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+     return z.jmeno;
     }
 
-    @Override
+  @Override
     public String getLastName() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return z.prijmeni;
     }
 
-    @Override
+     @Override
     public String getStreet() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+      return a.ulice;
     }
 
-    @Override
+ @Override
     public int getHouseNumber() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+      return a.cisloDomu;
     }
 
-    @Override
+     @Override
     public int getRegistryNumber() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return a.cisloBytu;
     }
 
-    @Override
+   @Override
     public String getCity() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return a.mesto;
     }
 
     @Override
     public String getZipCode() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return a.PSC;
     }
 
     @Override
     public String getCountry() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+       return a.zeme;
+    }
+    @Override
+    public ArrayList<String> getProducts() {
+        return p.produkty;
     }
 
     @Override
-    public Object getProducts() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public ArrayList<Integer> getProductQuantities() {
+        return p.pocet;
+    }
+ @Override
+    public ArrayList<Double> getProductPrices() {
+       return p.cena;
     }
 
-    @Override
-    public Object getProductQuantities() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public Object getProductPrices() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-    
+   
 }

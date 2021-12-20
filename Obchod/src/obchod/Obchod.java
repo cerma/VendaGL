@@ -14,7 +14,14 @@ public class Obchod {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Zakaznik zakaznik = new Zakaznik(1, "Tomáš", "Marný");
+        Adresa adresa = new Adresa("Ve Svahu", 10, 2, "Praha", "10000","Česká republika");
+        Produkt produkt = new Produkt("Body pro ITnetwork.cz", 1, 239);
+
+        OrderInterface objednavka = new Objednavka(zakaznik,adresa,produkt);
+        Gateway brana = new Gateway();
+        brana.processOrder(objednavka);
+
     }
     
 }

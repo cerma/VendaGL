@@ -11,10 +11,12 @@ import java.util.ArrayList;
  * @author cermak
  */
 public interface OrderInterface {
-       int getNumber();
+      
+     int getNumber();
 
     /**
      * Customer's first name
+     * @return 
      */
     String getFirstName();
 
