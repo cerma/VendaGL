@@ -10,11 +10,18 @@ package naradi;
  */
 public class ElektrickySroubovak extends Sroubovak{
     public int KapacitaBaterie;
+
+    public ElektrickySroubovak(String nazev, int vaha,int KapacitaBaterie) {
+        super(nazev, vaha);
+        this.KapacitaBaterie = KapacitaBaterie;
+    }
     
-    public ElektrickySroubovak(int KapacitaBaterie){
-    this.KapacitaBaterie = KapacitaBaterie;
+  @Override
+    public String pracuj() {
+       return "Šroubuji elektricky";
+    }
     
     }
     
     
-}
+

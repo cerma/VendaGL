@@ -9,6 +9,14 @@ package naradi;
  * @author cermak
  */
 public class Sroubovak extends Nastroj{
+    
+    
+    public Sroubovak(String nazev,int vaha){
+    
+      this.nazev = nazev;
+    this.vaha = vaha;
+    }
+    
 
     @Override
     public String pracuj() {

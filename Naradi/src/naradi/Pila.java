@@ -9,6 +9,13 @@ package naradi;
  * @author cermak
  */
 public class Pila extends Nastroj{
+    public Pila(String nazev,int vaha){
+    this.nazev = nazev;
+    this.vaha = vaha;
+    
+    }
+    
+    
     @Override
     public String pracuj(){
     return "Piluji";

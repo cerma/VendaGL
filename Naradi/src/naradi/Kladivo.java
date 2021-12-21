@@ -10,7 +10,20 @@ package naradi;
  */
 public class Kladivo extends Nastroj{
     
-    public boolean Obourucni;
+    
+    
+    
+    public boolean obourucni;
+    
+    public Kladivo(String nazev,int vaha, boolean obourucni){
+    this.nazev = nazev;
+    this.vaha = vaha;
+    this.obourucni = obourucni;
+    
+    }
+    
+    
+    
     @Override
     public String pracuj(){
     

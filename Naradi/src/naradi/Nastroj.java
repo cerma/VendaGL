@@ -10,7 +10,8 @@ package naradi;
  */
 public abstract class Nastroj {
       public int vaha;
-    public String nazev;
+      public String nazev;
+    
     
     public abstract String pracuj();
     
