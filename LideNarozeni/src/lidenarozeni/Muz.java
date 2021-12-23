@@ -28,15 +28,21 @@ public class Muz extends Clovek{
     LocalDate ted = LocalDate.now();
     TemporalAmount vek = Period.between(narozeni, ted);
     stari = (int) vek.get(ChronoUnit.YEARS);
-    
-    
+     
     }
+   
+        
     
+    
+    
+
     
 
     @Override
     public int compareTo(Clovek t) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+
+ 
     
 }

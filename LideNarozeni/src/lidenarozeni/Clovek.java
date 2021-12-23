@@ -6,6 +6,7 @@ package lidenarozeni;
 
 import java.time.LocalDate;
 import java.time.Month;
+import java.util.ArrayList;
 
 /**
  *
@@ -16,6 +17,14 @@ public abstract class Clovek implements Comparable<Clovek>{
     public String jmeno;
     public String prijmeni;
     public LocalDate narozeni;
+    public ArrayList<Clovek> seznam= new ArrayList<>();
     
+    
+    
+    
+  
+    
+    
+    }
 
-}
+
