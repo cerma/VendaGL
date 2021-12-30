@@ -28,9 +28,11 @@ public class Muz extends Clovek{
     LocalDate ted = LocalDate.now();
     TemporalAmount vek = Period.between(narozeni, ted);
     stari = (int) vek.get(ChronoUnit.YEARS);
-     
+    
+    
     }
    
+ 
         
     
     
@@ -38,9 +40,22 @@ public class Muz extends Clovek{
 
     
 
-    @Override
-    public int compareTo(Clovek t) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+ 
+   @Override
+    public int compareTo(Clovek c) {
+  int vysledek = c.jmeno.compareTo(jmeno); 
+     
+        if (vysledek == 0){
+            if (narozeni.getYear() > c.narozeni.getYear())
+             return 1;
+            else if (narozeni.getYear() < c.narozeni.getYear())
+                return -1;
+            else return 0;
+        }
+        else if(vysledek>0)
+            return -1;
+        else 
+            return 1;
     }
 
  
