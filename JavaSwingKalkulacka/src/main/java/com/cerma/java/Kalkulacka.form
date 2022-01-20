@@ -75,6 +75,9 @@
       </Events>
     </Component>
     <Component class="javax.swing.JSpinner" name="Cislo2JSpinner">
+      <Properties>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel3">
       <Properties>

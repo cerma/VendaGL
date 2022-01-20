@@ -26,56 +26,72 @@ public class Zvetsovac extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jScrollPane1 = new javax.swing.JScrollPane();
-        TextjTextArea = new javax.swing.JTextArea();
-        TlacitkojButton1 = new javax.swing.JButton();
+        TlacitkojButtonPreved = new javax.swing.JButton();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        jTextVstup = new javax.swing.JTextPane();
+        jLabelNadpis = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        TextjTextArea.setColumns(20);
-        TextjTextArea.setRows(5);
-        jScrollPane1.setViewportView(TextjTextArea);
-
-        TlacitkojButton1.setText("Preved na velke pismena");
-        TlacitkojButton1.addActionListener(new java.awt.event.ActionListener() {
+        TlacitkojButtonPreved.setText("Preved na velke pismena");
+        TlacitkojButtonPreved.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TlacitkojButton1ActionPerformed(evt);
+                TlacitkojButtonPrevedActionPerformed(evt);
             }
         });
+
+        jScrollPane2.setViewportView(jTextVstup);
+
+        jLabelNadpis.setForeground(new java.awt.Color(51, 51, 51));
+        jLabelNadpis.setText("Zvetšovač");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(75, 75, 75)
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(112, 112, 112)
-                        .addComponent(TlacitkojButton1)))
-                .addContainerGap(91, Short.MAX_VALUE))
+                        .addComponent(TlacitkojButtonPreved)))
+                .addContainerGap(128, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(jLabelNadpis, javax.swing.GroupLayout.PREFERRED_SIZE, 99, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(144, 144, 144))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(38, 38, 38)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(59, 59, 59)
-                .addComponent(TlacitkojButton1)
+                .addGap(26, 26, 26)
+                .addComponent(jLabelNadpis, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(48, 48, 48)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(52, 52, 52)
+                .addComponent(TlacitkojButtonPreved)
                 .addContainerGap(95, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void TlacitkojButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TlacitkojButton1ActionPerformed
-     
+    private void TlacitkojButtonPrevedActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TlacitkojButtonPrevedActionPerformed
+    
+        
+        try {
+             String vstup = (String) jTextVstup.getText();
+             vstup = vstup.toUpperCase();
+             jTextVstup.setText(vstup);
+             
+        } catch (Exception e) {
+            jTextVstup.setText("Nastala vyjimka, spatny vstup");
+        }
+
         
         
         
-    }//GEN-LAST:event_TlacitkojButton1ActionPerformed
+    }//GEN-LAST:event_TlacitkojButtonPrevedActionPerformed
 
     /**
      * @param args the command line arguments
@@ -107,14 +123,18 @@ public class Zvetsovac extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Zvetsovac().setVisible(true);
+                
+                Zvetsovac zvetsovac = new Zvetsovac();
+                zvetsovac.setLocationRelativeTo(null);
+                zvetsovac.setVisible(true);
             }
         });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JTextArea TextjTextArea;
-    private javax.swing.JButton TlacitkojButton1;
-    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JButton TlacitkojButtonPreved;
+    private javax.swing.JLabel jLabelNadpis;
+    private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JTextPane jTextVstup;
     // End of variables declaration//GEN-END:variables
 }

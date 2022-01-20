@@ -42,6 +42,8 @@ public class Kalkulacka extends javax.swing.JFrame {
             }
         });
 
+        Cislo2JSpinner.setToolTipText("");
+
         jLabel3.setText("=");
 
         OperacejComboBox.setEditable(true);

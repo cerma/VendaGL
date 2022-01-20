@@ -23,7 +23,7 @@ int a = Integer.parseInt(sc.nextLine());
 int b = Integer.parseInt(sc.nextLine());
 
 Data prvek = new Data(a,b);
-prvek.Deleni();
+
 
 
     }

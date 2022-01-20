@@ -35,7 +35,7 @@ public class Uzivatel {
 
     @Override
     public String toString() {
-        return "Uzivatel{" + "jmeno=" + jmeno + '}';
+        return jmeno;
     }
     
     

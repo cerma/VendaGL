@@ -10,6 +10,7 @@ package kolekce;
  */
 public class Trida<T> {
     private T promena;
+  
 
     public Trida(T promena) {
         this.promena = promena;
