@@ -27,7 +27,7 @@ public class FirstController {
     
     }
     @GetMapping("/pozdrav/{name}")
-    private String Pozdrav(@PathVariable String name){
+    private String Pozdrav(@PathVariable String name){// path variable bere string z URL
     
         return "Ahoj " + name;
     
