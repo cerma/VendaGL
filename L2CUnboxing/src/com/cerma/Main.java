@@ -36,7 +36,7 @@ public class Main {
 
 
     private static void test(Object c){
-        c.toString();
+        c.toString(); //test
 
 
     }
