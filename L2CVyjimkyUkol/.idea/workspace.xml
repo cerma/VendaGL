@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6b3d8ee6-8f9f-4829-94fb-d696cd639e1c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L2CVlasniVyjimky/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L2CVlasniVyjimky/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L2CVlasniVyjimky/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L2CVlasniVyjimky/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L2CVlasniVyjimky/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L2CVlasniVyjimky/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L2CVlasniVyjimky/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L2CVlasniVyjimky/L2CVlasniVyjimky.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L2CVlasniVyjimky/src/com/cerma/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L2CVyjimky/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L2CVyjimky/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L2CVyjimky/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L2CVyjimky/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L2CVyjimky/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L2CVyjimky/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L2CVyjimky/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L2CVyjimky/L2CVyjimky.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L2CVyjimky/src/com/cerma/InvalidAgeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L2CVyjimky/src/com/cerma/NameTooLongException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L2CVyjimky/src/com/cerma/Osoba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2CVyjimkyUkol.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cerma/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cerma/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cerma/PocasiException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cerma/VitrException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled104.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../IT.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="24NhtzVMpVPc97fZuGehcPrLSK1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.cerma.Main" />
+      <module name="L2CVyjimkyUkol" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b3d8ee6-8f9f-4829-94fb-d696cd639e1c" name="Changes" comment="" />
+      <created>1643477173720</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643477173720</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
