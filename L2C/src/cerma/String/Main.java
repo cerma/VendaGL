@@ -1,6 +1,6 @@
 package cerma.String;
 
-public class Main {
+public class    Main {
     public static void main(String[] args) {
         String s = "Tomas Cermak";
         System.out.println(s.length());
