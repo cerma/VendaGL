@@ -5,11 +5,11 @@ public class Data {
     private String pocasi;
 
     public Data(int rychlostVetru, String pocasi) {
-        rychlostVetru = rychlostVetru;
+        this.rychlostVetru = rychlostVetru;
         this.pocasi = pocasi;
 
     }
-    public void KontrolaVetru() throws Exception{
+    public void KontrolaVetru() throws VitrException{
         if (rychlostVetru > 35){
             throw new VitrException("Moc fouka ser na to");
         }
@@ -24,7 +24,12 @@ public class Data {
             System.out.println("Je tam hezky, muzes jit");
     }
     public void MamJitVen(){
-        KontrolaPocasi();
 
+        try {
+            this.KontrolaVetru();
+        } catch (VitrException e) {
+            e.printStackTrace();
+        }
+        this.KontrolaPocasi();
     }
 }
