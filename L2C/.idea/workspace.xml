@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a20b685e-2691-453c-b624-7742bb6e45f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cerma/FormatovaniUkol/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cerma/String/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cerma/String/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cerma/FormatovaniUkol/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cerma/FormatovaniUkol/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
