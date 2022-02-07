@@ -11,7 +11,10 @@ vyhledavani();
         //vysledek("9*"," aaaa"); //hleda se 9 * - je 0 az Nkrat + - 1 az Nkrat
        // vysledek("9{4}","99999"); // slozene zavorky znamenaji pocet prvku pred nima
         //vysledek("[abc]{3}","abcabcabcbbbbc"); // a, b, nebo c trikrat za sebou aaa,bbb,ccc,abc,aab...
-        test("[a-z]*@[a-z]*","asd@sdjfks.cz");
+        //test("[a-z]*@[a-z]*","asd@sdjfks.cz");
+       // greedyReluctantPossesiveQuantifier();
+        boundaryMatchers();
+
     }
     private static void vysledek(String pattern,String text){
         Pattern p = Pattern.compile(pattern);
@@ -44,8 +47,23 @@ vyhledavani();
         else
             System.out.println("Neproslo");
 
+    }
+    private static void greedyReluctantPossesiveQuantifier() {
+        System.out.println("gready:");
+        vysledek("foo.*bar","xfooxxbarxxxxfooxbarxxxx");
 
+        System.out.println("reluctant:");
+        vysledek("foo.*?bar","xfooxxbarxxxxfooxbarxxxx");
 
-
+        System.out.println("possesive:");
+        vysledek("foo.*+bar","xfooxxbarxxxxfooxbarxxxx");
+    }
+    private static void boundaryMatchers() {
+     vysledek("^hus","Hus sa hra na pozemku.");//hus na zacatku vety
+        vysledek("^hus","hus sa hra na pozemku.");
+       vysledek("^[hH]us","Hus sa hra na pozemku.");//male nebo velke h na zacatku vety
+        vysledek("^[hH]us","hus sa hra na pozemku.");
+       vysledek("^hus","Moja hus sa hra na pozemku.");
+       // vysledek("\\qbhus\\B","Moja huska sa hrĂˇ na pozemku."); \\b - retezec za mezerou, B - uprostred vety
     }
 }

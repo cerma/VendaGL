@@ -121,6 +121,7 @@ System.out.println(uprText);
 
     }
     // uprava HTML znacky
+
     public static void metoda8(String s) {
         System.out.println();
         String editedText = s.replaceAll("\\[", "<")
