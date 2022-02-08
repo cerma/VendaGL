@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a20b685e-2691-453c-b624-7742bb6e45f9" name="Changes" comment="rgds">
-      <change afterPath="$PROJECT_DIR$/src/cerma/Datum/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/RegVyrazyUloha/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/VstupZkonzole/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/object.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/Scanner/MainScan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/Soubory/MainPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/Soubory/Manipulace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/Stream/CharacterStreams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/Stream/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/Stream/ObjectStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/Stream/Osoba.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cerma/FormatovaniUkol/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cerma/FormatovaniUkol/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cerma/RegularniVyrazy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cerma/RegularniVyrazy/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,15 +47,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cerma.RegularniVyrazy.Main" />
+  <component name="RunManager" selected="Application.Manipulace">
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cerma.Stream.Main" />
       <module name="L2C" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cerma.RegularniVyrazy.*" />
+          <option name="PATTERN" value="cerma.Stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cerma.RegVyrazyUloha.Main" />
+    <configuration name="MainPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cerma.Soubory.MainPath" />
       <module name="L2C" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cerma.RegVyrazyUloha.*" />
+          <option name="PATTERN" value="cerma.Soubory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cerma.VstupZkonzole.Main" />
+    <configuration name="MainScan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cerma.Scanner.MainScan" />
       <module name="L2C" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cerma.VstupZkonzole.*" />
+          <option name="PATTERN" value="cerma.Scanner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cerma.String.Main" />
+    <configuration name="Manipulace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cerma.Soubory.Manipulace" />
       <module name="L2C" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cerma.String.*" />
+          <option name="PATTERN" value="cerma.Soubory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cerma.FormatovaniUkol.Main" />
+    <configuration name="ObjectStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cerma.Stream.ObjectStream" />
       <module name="L2C" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cerma.FormatovaniUkol.*" />
+          <option name="PATTERN" value="cerma.Stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Manipulace" />
+        <item itemvalue="Application.MainPath" />
+        <item itemvalue="Application.MainScan" />
+        <item itemvalue="Application.ObjectStream" />
+        <item itemvalue="Application.Main (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643894708439</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="rgds">
+      <created>1644241438659</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1644241438660</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
