@@ -2,7 +2,7 @@ package cerma.Stream;
 
 import java.io.Serializable;
 
-public class Osoba implements Serializable {
+public class Osoba implements Serializable,Comparable<Osoba> {
 
     private static final long serialVersionUID = 1L;
 
@@ -44,4 +44,18 @@ public class Osoba implements Serializable {
         System.out.println("ahoj som staticka");
     }
 
+    @Override
+    public String toString() {
+        return "Osoba{" +
+                "meno='" + meno + '\'' +
+                ", priezvisko='" + priezvisko + '\'' +
+                ", vek=" + vek +
+                '}';
+    }
+
+    @Override
+    public int compareTo(Osoba o) {
+        int porovnaniePriezvisk = o.getPriezvisko().compareTo(this.getPriezvisko());// do int se ulozi 0 jestli budou primeni stejne dlouha
+        return porovnaniePriezvisk !=0 ? porovnaniePriezvisk : o.getMeno().compareTo(this.getMeno());//jeslti bude rovno 0 porovnani prijemni porovna se podle jmena
+    }
 }
