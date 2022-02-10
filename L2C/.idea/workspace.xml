@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a20b685e-2691-453c-b624-7742bb6e45f9" name="Changes" comment="rgds">
-      <change afterPath="$PROJECT_DIR$/src/cerma/Kolekce/KolekceList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/Kolekce/KolekceMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/Kolekce/KolekceSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/Kolekce/TrideniElementu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/Soubory/Varargs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/SouboryUkol/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/kolekceUkoly/Main.java" afterDir="false" />
+    <list default="true" id="a20b685e-2691-453c-b624-7742bb6e45f9" name="Changes" comment="kolekce">
+      <change afterPath="$PROJECT_DIR$/src/cerma/Generika/Uvod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/Generika/UvodGenericky.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/kolekceUkoly/Osoba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/kolekceUkoly/Trizeni.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cerma/Stream/Osoba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cerma/Stream/Osoba.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cerma/kolekceUkoly/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cerma/kolekceUkoly/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,33 +46,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="KolekceList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cerma.Kolekce.KolekceList" />
-      <module name="L2C" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cerma.Kolekce.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KolekceMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cerma.Kolekce.KolekceMap" />
-      <module name="L2C" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cerma.Kolekce.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Uvod">
     <configuration name="KolekceSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cerma.Kolekce.KolekceSet" />
       <module name="L2C" />
@@ -115,13 +86,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Trizeni" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cerma.kolekceUkoly.Trizeni" />
+      <module name="L2C" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cerma.kolekceUkoly.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Uvod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cerma.Generika.Uvod" />
+      <module name="L2C" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cerma.Generika.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Uvod" />
+        <item itemvalue="Application.Trizeni" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.TrideniElementu" />
-        <item itemvalue="Application.KolekceMap" />
-        <item itemvalue="Application.KolekceList" />
         <item itemvalue="Application.KolekceSet" />
+        <item itemvalue="Application.TrideniElementu" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644327811108</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="kolekce">
+      <created>1644413992139</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1644413992139</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,6 +183,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="rgds" />
-    <option name="LAST_COMMIT_MESSAGE" value="rgds" />
+    <MESSAGE value="kolekce" />
+    <option name="LAST_COMMIT_MESSAGE" value="kolekce" />
   </component>
 </project>

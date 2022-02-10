@@ -21,6 +21,12 @@ public class Main {
         jmena.add(1,"Vendulka");
         VypisJmen(jmena);
 
+        System.out.println("Index hledaneho jmena je: "+HledacJmen(jmena,"Lenka"));
+
+        //vypis hledaneho prvku
+        System.out.println(jmena.get(HledacJmen(jmena,"Lenka")));
+
+
 
     }
 
@@ -29,9 +35,13 @@ public class Main {
         System.out.println(s);
 
     }
-    public static void PridatPrvekNaPrvnimMiste(String s ){
+    //hleda index shodne jmena, jestli nenajde vrati -1
+    public static int HledacJmen(List<String> l,String s){
+        if (l.contains(s)){
+            return l.indexOf(s);
 
-
+        }
+    else return -1;
     }
 }
 
