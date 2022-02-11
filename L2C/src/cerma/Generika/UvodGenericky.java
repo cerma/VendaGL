@@ -7,16 +7,21 @@ public class UvodGenericky<P> {
         this.object = object;
     }
 
-    public Object getObject() {
+    public P getObject() {
         return object;
     }
 
     public static void main(String[] args) {
-        UvodGenericky IntegerBox = new UvodGenericky();
-        IntegerBox.setObject("5");
-        Integer cislo = (Integer) IntegerBox.getObject();// classCastException, Sting nelze pretypovat na Integer,classCastException- lze se vyhnout Generikou
+       UvodGenericky<String> stringGenericBox = new UvodGenericky<>();
+       stringGenericBox.setObject("toto je string");
 
-        System.out.println(cislo);
+       String p = stringGenericBox.getObject();
+
+        UvodGenericky<Integer> intGenericBox = new UvodGenericky<>();
+        intGenericBox.setObject(25);
+
+        int s = intGenericBox.getObject();
+
 
     }
 }

@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a20b685e-2691-453c-b624-7742bb6e45f9" name="Changes" comment="kolekce">
-      <change afterPath="$PROJECT_DIR$/src/cerma/Generika/Uvod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/Generika/UvodGenericky.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/kolekceUkoly/Osoba.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/kolekceUkoly/Trizeni.java" afterDir="false" />
+    <list default="true" id="a20b685e-2691-453c-b624-7742bb6e45f9" name="Changes" comment="generika">
+      <change afterPath="$PROJECT_DIR$/src/GenerikaOmezeniCvic/BoundedType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GenerikaOmezeniCvic/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GenerikaOmezeniCvic/MalaOsoba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GenerikaOmezeniCvic/Osoba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/Generika/BoundetType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/Generika/GenerickeMetody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/Generika/GenerickeMetody2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/Generika/MultipleGenericBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/Generika/NejakyPes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/Generika/Osoba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/Generika/Pes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cerma/kolekceUkoly/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cerma/kolekceUkoly/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cerma/Generika/UvodGenericky.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cerma/Generika/UvodGenericky.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,13 +53,19 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunManager" selected="Application.Uvod">
-    <configuration name="KolekceSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cerma.Kolekce.KolekceSet" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="GenerikaOmezeniCvic" />
+      <recent name="cerma.Generika" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="BoundetType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cerma.Generika.BoundetType" />
       <module name="L2C" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cerma.Kolekce.*" />
+          <option name="PATTERN" value="cerma.Generika.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -60,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cerma.kolekceUkoly.Main" />
+    <configuration name="GenerickeMetody2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cerma.Generika.GenerickeMetody2" />
       <module name="L2C" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cerma.kolekceUkoly.*" />
+          <option name="PATTERN" value="cerma.Generika.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,25 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrideniElementu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cerma.Kolekce.TrideniElementu" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GenerikaOmezeniCvic.Main" />
       <module name="L2C" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cerma.Kolekce.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Trizeni" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cerma.kolekceUkoly.Trizeni" />
-      <module name="L2C" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cerma.kolekceUkoly.*" />
+          <option name="PATTERN" value="GenerikaOmezeniCvic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,13 +112,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UvodGenericky" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cerma.Generika.UvodGenericky" />
+      <module name="L2C" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cerma.Generika.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.BoundetType" />
+        <item itemvalue="Application.GenerickeMetody2" />
+        <item itemvalue="Application.UvodGenericky" />
         <item itemvalue="Application.Uvod" />
-        <item itemvalue="Application.Trizeni" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.KolekceSet" />
-        <item itemvalue="Application.TrideniElementu" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644413992139</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="generika">
+      <created>1644500604171</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1644500604171</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,6 +204,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="rgds" />
     <MESSAGE value="kolekce" />
-    <option name="LAST_COMMIT_MESSAGE" value="kolekce" />
+    <MESSAGE value="generika" />
+    <option name="LAST_COMMIT_MESSAGE" value="generika" />
   </component>
 </project>
