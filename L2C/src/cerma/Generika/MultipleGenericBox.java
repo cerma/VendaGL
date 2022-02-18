@@ -1,5 +1,7 @@
 package cerma.Generika;
 
+import cerma.GenerikaUkol2.MalaOsoba;
+
 public class MultipleGenericBox<P,T> {
 
     private P objekt1;
@@ -8,6 +10,8 @@ public class MultipleGenericBox<P,T> {
     public void add(P objekt1,T objekt2){
         this.objekt1 = objekt1;
         this.objekt2 = objekt2;
+
+
 
     }
 

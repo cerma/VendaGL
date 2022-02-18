@@ -1,9 +1,9 @@
-package GenerikaOmezeniCvic;
+package cerma.GenerikaUkol2;
 
 public class Osoba implements Comparable<Osoba> {
-    private String jmeno;
-    private String prijmeni;
-    private int vek;
+    protected String jmeno;
+    protected String prijmeni;
+    protected int vek;
 
     public Osoba(String jmeno, String prijmeni, int vek) {
         this.jmeno = jmeno;

@@ -1,4 +1,4 @@
-package GenerikaOmezeniCvic;
+package cerma.GenerikaOmezeniCvic;
 
 public class BoundedType<P extends Osoba> {
     private P ojekt;

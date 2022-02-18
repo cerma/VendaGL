@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="720712cc-4df6-47c2-806b-ce74b21ee971" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Interface/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface/.idea/ant.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface/Interface.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L2C/src/Venda/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L2C/src/cerma/GenerikaInference/Inference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L2C/src/cerma/GenerikaInference/LoweBounded.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L2C/src/cerma/GenerikaInference/Unbounded.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L2C/src/cerma/GenerikaInference/UpperBounded.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L2C/src/cerma/GenerikaOmezeniCvic/MultipleBounf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L2C/src/cerma/GenerikaUkol2/MalaOsoba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L2C/src/cerma/GenerikaUkol2/Osoba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L2C/src/cerma/GenerikaUkol2/knihovna.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L2C/src/cerma/RozhraniDefaltMetody/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L2C/src/cerma/RozhraniDefaltMetody/RozhraniA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L2C/src/cerma/RozhraniDefaltMetody/RozhraniB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L2C/src/cerma/VnoreneTridy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L2C/src/cerma/VnoreneTridy/MainMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L2C/src/cerma/generikaUkol/GenTrida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L2C/src/cerma/generikaUkol/Osoba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Obchod/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Obchod/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Obchod/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Obchod/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Obchod/Obchod.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L2C/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../L2C/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L2C/src/GenerikaOmezeniCvic/BoundedType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../L2C/src/cerma/GenerikaOmezeniCvic/BoundedType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L2C/src/GenerikaOmezeniCvic/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../L2C/src/cerma/GenerikaOmezeniCvic/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L2C/src/GenerikaOmezeniCvic/MalaOsoba.java" beforeDir="false" afterPath="$PROJECT_DIR$/../L2C/src/cerma/GenerikaOmezeniCvic/MalaOsoba.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L2C/src/GenerikaOmezeniCvic/Osoba.java" beforeDir="false" afterPath="$PROJECT_DIR$/../L2C/src/cerma/GenerikaOmezeniCvic/Osoba.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L2C/src/cerma/Generika/MultipleGenericBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/../L2C/src/cerma/Generika/MultipleGenericBox.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="25EtSWlRo1JazgwOdKbARsmyIw6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="720712cc-4df6-47c2-806b-ce74b21ee971" name="Changes" comment="" />
+      <created>1645104073626</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645104073626</updated>
+    </task>
+    <servers />
+  </component>
+</project>
