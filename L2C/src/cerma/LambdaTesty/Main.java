@@ -9,6 +9,7 @@ public class Main {
 
 
 
+
     public static void main(String[] args) {
 
     Main printer = new Main();
@@ -21,6 +22,8 @@ public class Main {
     });
     //s lambdou
         printer.prepis(()-> System.out.println("lambda prepis"));
+
+
 
 
 

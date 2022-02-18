@@ -2,58 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a20b685e-2691-453c-b624-7742bb6e45f9" name="Changes" comment="generika">
-      <change afterPath="$PROJECT_DIR$/../Interface/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interface/.idea/ant.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interface/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interface/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interface/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interface/Interface.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Venda/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/GenerikaInference/Inference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/GenerikaInference/LoweBounded.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/GenerikaInference/Unbounded.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/GenerikaInference/UpperBounded.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/GenerikaOmezeniCvic/MultipleBounf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/GenerikaUkol2/MalaOsoba.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/GenerikaUkol2/Osoba.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/GenerikaUkol2/knihovna.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/LambdaTesty/Iprint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/LambdaTesty/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/LambdaTesty/Print.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/Lamda/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/Lamda/IhelooWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/RozhraniDefaltMetody/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/RozhraniDefaltMetody/RozhraniA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/RozhraniDefaltMetody/RozhraniB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/StatickeTridyTest/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/StatickeTridyTest/OsobaStaticka.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/VnoreneTridy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/VnoreneTridy/MainMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/VnoreneTridy/ShadowTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/VnoreneTridyUkol/Clovek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/VnoreneTridyUkol/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/VorenaAnonymniTrida/AnonimniTrida.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/VorenaAnonymniTrida/Irozhrani.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/VorenaAnonymniTrida/implementacniTrida.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/generikaUkol/GenTrida.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/generikaUkol/Osoba.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Obchod/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Obchod/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Obchod/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Obchod/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Obchod/Obchod.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Statika/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Statika/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Statika/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Statika/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Statika/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Statika/Statika.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/Lambda2/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/Lambda2/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GenerikaOmezeniCvic/BoundedType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cerma/GenerikaOmezeniCvic/BoundedType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GenerikaOmezeniCvic/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cerma/GenerikaOmezeniCvic/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GenerikaOmezeniCvic/MalaOsoba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cerma/GenerikaOmezeniCvic/MalaOsoba.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GenerikaOmezeniCvic/Osoba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cerma/GenerikaOmezeniCvic/Osoba.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cerma/Generika/MultipleGenericBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cerma/Generika/MultipleGenericBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cerma/LambdaTesty/Iprint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cerma/LambdaTesty/Iprint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cerma/LambdaTesty/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cerma/LambdaTesty/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cerma/LambdaTesty/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cerma/LambdaTesty/Print.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644579170825</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="generika">
+      <created>1645188664339</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1645188664339</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
