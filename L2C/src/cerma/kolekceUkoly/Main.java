@@ -26,6 +26,8 @@ public class Main {
         //vypis hledaneho prvku
         System.out.println(jmena.get(HledacJmen(jmena,"Lenka")));
 
+        
+
 
 
     }
