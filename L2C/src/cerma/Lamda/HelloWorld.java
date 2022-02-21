@@ -25,7 +25,7 @@ public class HelloWorld {
     public class Helo implements IhelooWorld{
         @Override
         public void SayHallo() {
-            System.out.println("Hello world");
+            System.out.println("Hello world");//xxx
         }
     }
 }
