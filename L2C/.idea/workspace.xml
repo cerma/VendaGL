@@ -2,19 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a20b685e-2691-453c-b624-7742bb6e45f9" name="Changes" comment="Lambda">
-      <change afterPath="$PROJECT_DIR$/src/cerma/Lambda2/Ilambda2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/Lambda3/ILamba.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/Lambda3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/Lambda4/Filter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/Lambda4/Lambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/Lambda4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/LambdaFunkcionalniRozhrani/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/LambdaTesty2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/LambdaVnitrniTridy/Ilambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/LambdaVnitrniTridy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/LambdaClosure/Interface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/LambdaClosure/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/LambdaKolekce/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/LambdaKolekce/Osoba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/LambdaReferenceNaMetodu/Interface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/LambdaReferenceNaMetodu/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/LambdaTesty3/InterfaceLambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/LambdaTesty3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/LambdaVsVnitrniTrida/Interface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/LambdaVsVnitrniTrida/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/Streamy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/StreamyOptional/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cerma/Lambda2/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cerma/Lambda2/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cerma/Lambda2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cerma/Lambda2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,33 +67,20 @@
       <recent name="E:\InteliJprojects\cerma\java\L2C\src\cerma\VorenaAnonymniTrida" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cerma.LambdaKolekce" />
+      <recent name="cerma.LambdaReferenceNaMetodu" />
+      <recent name="cerma.LambdaVsVnitrniTrida" />
       <recent name="cerma.LambdaVnitrniTridy" />
       <recent name="cerma.GenerikaUkol2" />
-      <recent name="cerma.generikaUkol" />
-      <recent name="GenerikaOmezeniCvic" />
-      <recent name="cerma.Generika" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration name="Lambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cerma.Lambda4.Lambda" />
-      <module name="L2C" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cerma.Lambda4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cerma.LambdaTesty2.Main" />
+      <option name="MAIN_CLASS_NAME" value="cerma.Streamy.Main" />
       <module name="L2C" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cerma.LambdaTesty2.*" />
+          <option name="PATTERN" value="cerma.Streamy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,11 +89,11 @@
       </method>
     </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cerma.Lambda3.Main" />
+      <option name="MAIN_CLASS_NAME" value="cerma.LambdaVsVnitrniTrida.Main" />
       <module name="L2C" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cerma.Lambda3.*" />
+          <option name="PATTERN" value="cerma.LambdaVsVnitrniTrida.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +102,24 @@
       </method>
     </configuration>
     <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cerma.Lambda4.Main" />
+      <option name="MAIN_CLASS_NAME" value="cerma.LambdaReferenceNaMetodu.Main" />
       <module name="L2C" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cerma.Lambda4.*" />
+          <option name="PATTERN" value="cerma.LambdaReferenceNaMetodu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cerma.LambdaKolekce.Main" />
+      <module name="L2C" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cerma.LambdaKolekce.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +128,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cerma.LambdaFunkcionalniRozhrani.Main" />
+      <option name="MAIN_CLASS_NAME" value="cerma.StreamyOptional.Main" />
       <module name="L2C" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cerma.LambdaFunkcionalniRozhrani.*" />
+          <option name="PATTERN" value="cerma.StreamyOptional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,7 +144,7 @@
       <list>
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Lambda" />
+        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
       </list>
@@ -222,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645423953667</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Lambda">
+      <created>1645450567217</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1645450567217</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
