@@ -1,20 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a20b685e-2691-453c-b624-7742bb6e45f9" name="Changes" comment="Lambda">
-      <change afterPath="$PROJECT_DIR$/src/cerma/LambdaClosure/Interface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/LambdaClosure/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/LambdaKolekce/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/LambdaKolekce/Osoba.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/LambdaReferenceNaMetodu/Interface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/LambdaReferenceNaMetodu/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/LambdaTesty3/InterfaceLambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/LambdaTesty3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/LambdaVsVnitrniTrida/Interface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/LambdaVsVnitrniTrida/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/Streamy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/StreamyOptional/Main.java" afterDir="false" />
+    <list default="true" id="a20b685e-2691-453c-b624-7742bb6e45f9" name="Changes" comment="Stream">
+      <change afterPath="$PROJECT_DIR$/../JavaORMframework/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaORMframework/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaORMframework/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaORMframework/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaORMframework/JavaORMframework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaORMframework/src/main/java/cz/cerma/fiktivniProgram/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaORMframework/src/main/java/cz/cerma/fiktivniProgram/entyty/Osoba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaORMframework/src/main/java/cz/cerma/simpleORMframework/DBacces/SormManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaORMframework/src/main/java/cz/cerma/simpleORMframework/anotace/ID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaORMframework/src/main/java/cz/cerma/simpleORMframework/anotace/Sloupec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaORMframework/src/main/java/cz/cerma/simpleORMframework/anotace/Tabulka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/AnotaceUvod/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/AnotaceUvod/JednoHodnotova.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/AnotaceUvod/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/AnotaceUvod/Osoba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/AnotaceUvod/TargetAnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/Reflexe/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/StreamSoubory/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/StreamyGenerovani/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/StreamyOptional3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/StreamyOptional3/Osoba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/StreamyTesty/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/StremyOptional2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/StremyOptional2/Osoba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/opakovacka/Auto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/opakovacka/Idoprava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/opakovacka/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/opakovacka/NakladniAuto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/opakovacka/Parkovani.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cerma/StreamyOptional/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cerma/StreamyOptional/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +43,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -63,24 +83,40 @@
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cerma.AnotaceUvod" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\InteliJprojects\cerma\java\L2C\src\cerma\VorenaAnonymniTrida" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cerma.AnotaceUvod" />
+      <recent name="cerma.StreamyOptional3" />
+      <recent name="cerma.StremyOptional2" />
       <recent name="cerma.LambdaKolekce" />
       <recent name="cerma.LambdaReferenceNaMetodu" />
-      <recent name="cerma.LambdaVsVnitrniTrida" />
-      <recent name="cerma.LambdaVnitrniTridy" />
-      <recent name="cerma.GenerikaUkol2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cerma.Streamy.Main" />
+      <option name="MAIN_CLASS_NAME" value="cerma.Reflexe.Main" />
       <module name="L2C" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cerma.Streamy.*" />
+          <option name="PATTERN" value="cerma.Reflexe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cerma.StremyOptional2.Main" />
+      <module name="L2C" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cerma.StremyOptional2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,11 +125,11 @@
       </method>
     </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cerma.LambdaVsVnitrniTrida.Main" />
+      <option name="MAIN_CLASS_NAME" value="cerma.StreamyOptional3.Main" />
       <module name="L2C" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cerma.LambdaVsVnitrniTrida.*" />
+          <option name="PATTERN" value="cerma.StreamyOptional3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,11 +138,11 @@
       </method>
     </configuration>
     <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cerma.LambdaReferenceNaMetodu.Main" />
+      <option name="MAIN_CLASS_NAME" value="cerma.StreamSoubory.Main" />
       <module name="L2C" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cerma.LambdaReferenceNaMetodu.*" />
+          <option name="PATTERN" value="cerma.StreamSoubory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,24 +151,11 @@
       </method>
     </configuration>
     <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cerma.LambdaKolekce.Main" />
+      <option name="MAIN_CLASS_NAME" value="cerma.StreamyTesty.Main" />
       <module name="L2C" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cerma.LambdaKolekce.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cerma.StreamyOptional.Main" />
-      <module name="L2C" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cerma.StreamyOptional.*" />
+          <option name="PATTERN" value="cerma.StreamyTesty.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645450567217</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Stream">
+      <created>1645540898701</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1645540898701</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,6 +279,7 @@
     <MESSAGE value="kolekce" />
     <MESSAGE value="generika" />
     <MESSAGE value="Lambda" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lambda" />
+    <MESSAGE value="Stream" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stream" />
   </component>
 </project>

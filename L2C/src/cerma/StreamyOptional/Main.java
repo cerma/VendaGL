@@ -43,6 +43,9 @@ public class Main {
         System.out.println("OfNullable na prazdnem Optional"+Optional.ofNullable(hodnota2));
         //vyjimka null pointer E
        // System.out.println("Of na prazdnem Optional"+Optional.of(hodnota2));
+
+        //or else vypise hodnotu Optional a kdyz je prazdna tak to co je v zavorce
+        System.out.println(jmeno.orElse("nic"));
     }
 
 }

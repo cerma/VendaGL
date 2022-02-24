@@ -1,1 +1,2 @@
 Toto je vstupni text
+Toto je druhy radek
