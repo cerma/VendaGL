@@ -2,38 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a20b685e-2691-453c-b624-7742bb6e45f9" name="Changes" comment="Stream">
-      <change afterPath="$PROJECT_DIR$/../JavaORMframework/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaORMframework/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaORMframework/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaORMframework/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaORMframework/JavaORMframework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaORMframework/src/main/java/cz/cerma/fiktivniProgram/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaORMframework/src/main/java/cz/cerma/fiktivniProgram/entyty/Osoba.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaORMframework/src/main/java/cz/cerma/simpleORMframework/DBacces/SormManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaORMframework/src/main/java/cz/cerma/simpleORMframework/anotace/ID.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaORMframework/src/main/java/cz/cerma/simpleORMframework/anotace/Sloupec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaORMframework/src/main/java/cz/cerma/simpleORMframework/anotace/Tabulka.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/AnotaceUvod/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/AnotaceUvod/JednoHodnotova.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/AnotaceUvod/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/AnotaceUvod/Osoba.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/AnotaceUvod/TargetAnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/Reflexe/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/StreamSoubory/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/StreamyGenerovani/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/StreamyOptional3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/StreamyOptional3/Osoba.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/StreamyTesty/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/StremyOptional2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/StremyOptional2/Osoba.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/opakovacka/Auto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/opakovacka/Idoprava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/opakovacka/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/opakovacka/NakladniAuto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/opakovacka/Parkovani.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaORMframework/out/production/JavaORMframework/cz/cerma/fiktivniProgram/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaORMframework/out/production/JavaORMframework/cz/cerma/fiktivniProgram/entyty/Osoba.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaORMframework/out/production/JavaORMframework/cz/cerma/simpleORMframework/DBacces/SormManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaORMframework/out/production/JavaORMframework/cz/cerma/simpleORMframework/anotace/ID.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaORMframework/out/production/JavaORMframework/cz/cerma/simpleORMframework/anotace/Sloupec.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaORMframework/out/production/JavaORMframework/cz/cerma/simpleORMframework/anotace/Tabulka.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaORMframework/out/production/JavaORMframework/cz/cerma/simpleORMframework/exceptions/AnnotationMissingException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaORMframework/out/production/JavaORMframework/cz/cerma/simpleORMframework/reflection/ObjectReflector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaORMframework/src/main/java/cz/cerma/simpleORMframework/exceptions/AnnotationMissingException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaORMframework/src/main/java/cz/cerma/simpleORMframework/reflection/ObjectReflector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/Reflexe/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/Reflexe/Osoba.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaORMframework/src/main/java/cz/cerma/simpleORMframework/DBacces/SormManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaORMframework/src/main/java/cz/cerma/simpleORMframework/DBacces/SormManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cerma/StreamyOptional/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cerma/StreamyOptional/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cerma/opakovacka/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cerma/opakovacka/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +59,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/cerma/VorenaAnonymniTrida" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaORMframework" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -90,11 +73,11 @@
       <recent name="E:\InteliJprojects\cerma\java\L2C\src\cerma\VorenaAnonymniTrida" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cerma.Reflexe" />
       <recent name="cerma.AnotaceUvod" />
       <recent name="cerma.StreamyOptional3" />
       <recent name="cerma.StremyOptional2" />
       <recent name="cerma.LambdaKolekce" />
-      <recent name="cerma.LambdaReferenceNaMetodu" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main (1)">
