@@ -1,39 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a20b685e-2691-453c-b624-7742bb6e45f9" name="Changes" comment="Stream">
-      <change afterPath="$PROJECT_DIR$/../JavaORMframework/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaORMframework/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaORMframework/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaORMframework/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaORMframework/JavaORMframework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaORMframework/src/main/java/cz/cerma/fiktivniProgram/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaORMframework/src/main/java/cz/cerma/fiktivniProgram/entyty/Osoba.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaORMframework/src/main/java/cz/cerma/simpleORMframework/DBacces/SormManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaORMframework/src/main/java/cz/cerma/simpleORMframework/anotace/ID.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaORMframework/src/main/java/cz/cerma/simpleORMframework/anotace/Sloupec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaORMframework/src/main/java/cz/cerma/simpleORMframework/anotace/Tabulka.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/AnotaceUvod/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/AnotaceUvod/JednoHodnotova.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/AnotaceUvod/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/AnotaceUvod/Osoba.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/AnotaceUvod/TargetAnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/Reflexe/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/StreamSoubory/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/StreamyGenerovani/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/StreamyOptional3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/StreamyOptional3/Osoba.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/StreamyTesty/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/StremyOptional2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/StremyOptional2/Osoba.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/opakovacka/Auto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/opakovacka/Idoprava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/opakovacka/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/opakovacka/NakladniAuto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/opakovacka/Parkovani.java" afterDir="false" />
+    <list default="true" id="a20b685e-2691-453c-b624-7742bb6e45f9" name="Changes" comment="ORM">
+      <change afterPath="$PROJECT_DIR$/src/cerma/testovani2/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/testovani2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/testovani2/Osoba.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cerma/StreamyOptional/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cerma/StreamyOptional/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cerma/opakovacka/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cerma/opakovacka/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cerma/opakovacka/Parkovani.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cerma/opakovacka/Parkovani.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645540898701</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="ORM">
+      <created>1645710011279</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1645710011279</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -280,6 +261,7 @@
     <MESSAGE value="generika" />
     <MESSAGE value="Lambda" />
     <MESSAGE value="Stream" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stream" />
+    <MESSAGE value="ORM" />
+    <option name="LAST_COMMIT_MESSAGE" value="ORM" />
   </component>
 </project>

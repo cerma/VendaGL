@@ -7,9 +7,11 @@ public class Main {
     List<Auto> bazar = new ArrayList<>();
     public static void main(String[] args) {
         ProdejSlambdou(() -> System.out.println("prodej s Lambdou"));
-        Parkovani park = new Parkovani();
+        Auto auto = new Auto("skoda","ads",15);
 
-        Auto skoda = park.parkuj(10,"Misto");
+       // Parkovani park = auto.getModel();
+
+
 
 
 
