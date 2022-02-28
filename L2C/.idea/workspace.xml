@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a20b685e-2691-453c-b624-7742bb6e45f9" name="Changes" comment="ORM">
-      <change afterPath="$PROJECT_DIR$/src/cerma/testovani2/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/testovani2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/testovani2/Osoba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SouboryAsiteIT/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SouboryAsiteIT/SouboryAsiteIT.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SouboryAsiteIT/out/production/SouboryAsiteIT/Soubory1/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SouboryAsiteIT/out/production/SouboryAsiteIT/Soubory1/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SouboryAsiteIT/src/Soubory1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SouboryAsiteIT/src/Soubory1/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cerma/opakovacka/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cerma/opakovacka/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cerma/opakovacka/Parkovani.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cerma/opakovacka/Parkovani.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cerma/testovani2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cerma/testovani2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SouboryAsiteIT/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SouboryAsiteIT/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

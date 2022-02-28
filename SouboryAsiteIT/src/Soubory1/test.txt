@@ -1,0 +1,4 @@
+Prvni radek souboru
+Druhy radek
+A do třetice
+Tento text je na posledním řádku
