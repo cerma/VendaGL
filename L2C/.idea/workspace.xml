@@ -2,14 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a20b685e-2691-453c-b624-7742bb6e45f9" name="Changes" comment="ORM">
-      <change afterPath="$PROJECT_DIR$/../SouboryAsiteIT/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SouboryAsiteIT/SouboryAsiteIT.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SouboryAsiteIT/out/production/SouboryAsiteIT/Soubory1/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SouboryAsiteIT/out/production/SouboryAsiteIT/Soubory1/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SouboryAsiteIT/src/Soubory1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SouboryAsiteIT/src/Soubory1/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/test/IOsoba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/test/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerma/test/Osoba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SouboryAplikace/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SouboryAplikace/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SouboryAplikace/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SouboryAplikace/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SouboryAplikace/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SouboryAplikace/SouboryAplikace.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SouboryAplikace/src/Databaze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SouboryAplikace/src/Formular.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SouboryAplikace/src/Formular.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SouboryAplikace/src/Osoba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring01/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring01/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring01/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring01/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring01/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring01/src/main/java/spring/CalculatorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring01/src/main/java/spring/CalculatorForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring01/src/main/java/spring/FirstController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring01/src/main/java/spring/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring01/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring01/target/classes/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring01/target/classes/spring/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cerma/testovani2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cerma/testovani2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Venda/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Venda/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SouboryAsiteIT/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SouboryAsiteIT/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +73,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/cerma/VorenaAnonymniTrida" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -67,33 +87,20 @@
       <recent name="E:\InteliJprojects\cerma\java\L2C\src\cerma\VorenaAnonymniTrida" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cerma.test" />
       <recent name="cerma.AnotaceUvod" />
       <recent name="cerma.StreamyOptional3" />
       <recent name="cerma.StremyOptional2" />
       <recent name="cerma.LambdaKolekce" />
-      <recent name="cerma.LambdaReferenceNaMetodu" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cerma.Reflexe.Main" />
       <module name="L2C" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cerma.Reflexe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cerma.StremyOptional2.Main" />
-      <module name="L2C" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cerma.StremyOptional2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,13 +147,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Venda.Main" />
+      <module name="L2C" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Venda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
