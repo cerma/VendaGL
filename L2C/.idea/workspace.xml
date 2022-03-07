@@ -2,35 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a20b685e-2691-453c-b624-7742bb6e45f9" name="Changes" comment="ORM">
-      <change afterPath="$PROJECT_DIR$/src/cerma/test/IOsoba.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/test/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cerma/test/Osoba.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SouboryAplikace/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SouboryAplikace/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SouboryAplikace/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SouboryAplikace/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SouboryAplikace/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SouboryAplikace/SouboryAplikace.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SouboryAplikace/src/Databaze.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SouboryAplikace/src/Formular.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SouboryAplikace/src/Formular.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SouboryAplikace/src/Osoba.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring01/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring01/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring01/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring01/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring01/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring01/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring01/src/main/java/spring/CalculatorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring01/src/main/java/spring/CalculatorForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring01/src/main/java/spring/FirstController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring01/src/main/java/spring/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring01/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring01/target/classes/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring01/target/classes/spring/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring01/src/main/resources/templates/calculator.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Venda/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Venda/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SouboryAsiteIT/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SouboryAsiteIT/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring01/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01/src/main/java/spring/CalculatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring01/src/main/java/spring/CalculatorController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
