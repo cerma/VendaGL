@@ -5,9 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2175cb29-2d93-4d90-83ef-f0da52aba03c" name="Changes" comment="SpringBoot1">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/calculator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring/CalculatorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/java/Spring/Controllers/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/java/Spring/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/java/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/java/images/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/java/images/logo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/java/images/logo33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/java/images/logo4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/java/images/logo5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/java/images/new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/java/images/new1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/java/images/new2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/java/images/new3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/resources/Templates/Uvod.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/resources/Templates/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/resources/Templates/images/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/resources/Templates/images/logo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/resources/Templates/images/logo33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/resources/Templates/images/logo4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/resources/Templates/images/logo5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/resources/Templates/images/new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/resources/Templates/images/new1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/resources/Templates/images/new2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/resources/Templates/images/new3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/target/classes/Spring/Controllers/MainController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/target/classes/Spring/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../L2C/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../L2C/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/spring/CalculatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/CalculatorController.java" afterDir="false" />
     </list>
@@ -19,8 +50,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -95,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646399236312</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="SpringBoot1">
+      <created>1646666589546</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1646666589546</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

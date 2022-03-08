@@ -2,9 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a20b685e-2691-453c-b624-7742bb6e45f9" name="Changes" comment="ORM">
-      <change afterPath="$PROJECT_DIR$/../Spring01/src/main/resources/templates/calculator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring01/src/main/java/spring/CalculatorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring01/src/main/resources/templates/result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/java/Spring/Controllers/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/java/Spring/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/java/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/java/images/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/java/images/logo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/java/images/logo33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/java/images/logo4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/java/images/logo5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/java/images/new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/java/images/new1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/java/images/new2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/java/images/new3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/resources/Templates/Uvod.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/resources/Templates/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/resources/Templates/images/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/resources/Templates/images/logo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/resources/Templates/images/logo33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/resources/Templates/images/logo4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/resources/Templates/images/logo5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/resources/Templates/images/new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/resources/Templates/images/new1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/resources/Templates/images/new2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/resources/Templates/images/new3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/target/classes/Spring/Controllers/MainController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/target/classes/Spring/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring01/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring01/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Spring01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring01/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Spring01/src/main/java/spring/CalculatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring01/src/main/java/spring/CalculatorController.java" afterDir="false" />
     </list>
