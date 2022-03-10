@@ -9,7 +9,7 @@ public class Main {
         ProdejSlambdou(() -> System.out.println("prodej s Lambdou"));
         Parkovani park = new Parkovani();
 
-        Auto skoda = park.parkuj(10,"Misto");
+       // Auto skoda = park.parkuj(10,"Misto");
 
 
 

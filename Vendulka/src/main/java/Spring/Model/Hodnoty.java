@@ -4,7 +4,7 @@ import lombok.Data;
 
 @Data
 public class Hodnoty {
-    private int vyslednaGL = 15;
+    private int vyslednaGL;
 
 
 }

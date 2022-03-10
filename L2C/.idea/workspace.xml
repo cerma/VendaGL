@@ -2,29 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a20b685e-2691-453c-b624-7742bb6e45f9" name="Changes" comment="ORM">
-      <change afterPath="$PROJECT_DIR$/../Vendulka/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/java/Spring/Model/Hodnoty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/resources/static/images/logo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Vendulka/target/classes/Templates/Uvod.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Vendulka/target/classes/static/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Vendulka/target/classes/static/images/logo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/java/Spring/Services/MainServices.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cerma/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cerma/test/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Venda/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Venda/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cerma/opakovacka/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cerma/opakovacka/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Spring01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring01/src/main/resources/templates/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring01/src/main/resources/templates/result.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Vendulka/src/main/java/Spring/Controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Vendulka/src/main/java/Spring/Controllers/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vendulka/src/main/java/Spring/Model/Hodnoty.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Vendulka/src/main/java/Spring/Model/Hodnoty.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Vendulka/src/main/resources/Templates/Uvod.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Vendulka/src/main/resources/Templates/Uvod.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Vendulka/src/main/resources/Templates/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Vendulka/src/main/resources/Templates/images/logo2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Vendulka/src/main/resources/Templates/images/logo3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Vendulka/src/main/resources/Templates/images/logo33.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Vendulka/src/main/resources/Templates/images/logo4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Vendulka/src/main/resources/Templates/images/logo5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Vendulka/src/main/resources/Templates/images/new.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Vendulka/src/main/resources/static/images/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Vendulka/src/main/resources/Templates/images/new1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Vendulka/src/main/resources/Templates/images/new2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Vendulka/src/main/resources/Templates/images/new3.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Vendulka/target/classes/Spring/Controllers/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Vendulka/target/classes/Spring/Controllers/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vendulka/target/classes/Templates/Uvod.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Vendulka/target/classes/Templates/Uvod.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -5,12 +5,17 @@ import javax.swing.text.html.HTMLEditorKit;
 import javax.swing.text.html.parser.ParserDelegator;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.lang.reflect.Array;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
+
+
     public static void main(String[] args) throws Exception {
+
+
         List hodnoty = new ArrayList();
 
         URL oracle = new URL("https://vendarulez.herokuapp.com/api/v1/entries");
@@ -22,7 +27,21 @@ public class Main {
             hodnoty.add(inputLine);
 
 
-        System.out.println(hodnoty.get(0));
+        String vysledek = hodnoty.get(0).toString();
+        String[] pole = vysledek.split("\t");
+
+
+
+        double aktualniGL = Integer.parseInt(pole[2]);
+        System.out.println(aktualniGL);
+
+        double aktualniGLmmol = aktualniGL/18;
+        int GLzaokrouhlene = (int) Math.round(aktualniGLmmol);
+
+        System.out.println(GLzaokrouhlene);
+
+
+
 
     }
 
