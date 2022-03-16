@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a20b685e-2691-453c-b624-7742bb6e45f9" name="Changes" comment="ORM">
-      <change afterPath="$PROJECT_DIR$/../Vendulka/src/main/java/Spring/Services/MainServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Venda/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/target/classes/Spring/Model/Hodnoty.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vendulka/target/classes/Spring/Services/MainServices.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/L2C/Venda/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/L2C/Venda/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/L2C/cerma/opakovacka/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/L2C/cerma/opakovacka/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Venda/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Venda/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cerma/opakovacka/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cerma/opakovacka/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Spring01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Vendulka/src/main/java/Spring/Controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Vendulka/src/main/java/Spring/Controllers/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Vendulka/src/main/java/Spring/Model/Hodnoty.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Vendulka/src/main/java/Spring/Model/Hodnoty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Vendulka/src/main/resources/Templates/Uvod.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Vendulka/src/main/resources/Templates/Uvod.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Vendulka/target/classes/Spring/Controllers/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Vendulka/target/classes/Spring/Controllers/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Vendulka/target/classes/Templates/Uvod.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Vendulka/target/classes/Templates/Uvod.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

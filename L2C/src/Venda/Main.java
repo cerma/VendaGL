@@ -4,6 +4,7 @@ import javax.swing.text.html.HTMLDocument;
 import javax.swing.text.html.HTMLEditorKit;
 import javax.swing.text.html.parser.ParserDelegator;
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.lang.reflect.Array;
 import java.net.URL;
@@ -13,37 +14,25 @@ import java.util.List;
 public class Main {
 
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws IOException {
+
+    Data test = new Data();
+    test.vypocet();
+   // test.smajla = "SingleDown";
 
 
-        List hodnoty = new ArrayList();
-
-        URL oracle = new URL("https://vendarulez.herokuapp.com/api/v1/entries");
-        BufferedReader in = new BufferedReader(
-                new InputStreamReader(oracle.openStream()));
-
-        String inputLine;
-        while ((inputLine = in.readLine()) != null)
-            hodnoty.add(inputLine);
+    test.smajlik();
 
 
-        String vysledek = hodnoty.get(0).toString();
-        String[] pole = vysledek.split("\t");
-
-
-
-        double aktualniGL = Integer.parseInt(pole[2]);
-        System.out.println(aktualniGL);
-
-        double aktualniGLmmol = aktualniGL/18;
-        int GLzaokrouhlene = (int) Math.round(aktualniGLmmol);
-
-        System.out.println(GLzaokrouhlene);
+        System.out.println(test.trend);
+        System.out.println(test.smajla);
 
 
 
 
     }
+
+
 
 
 
